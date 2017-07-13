@@ -30,14 +30,27 @@
   1. 羊会往没有狼和草多的地方移动。
   2. 狼会往羊多的方向移动。
 
-实现方法：使用权重比较的方法，模拟狼和羊的捕食与逃跑。
-  1. 狼的捕食策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
-    ![math01]()
-    该策略的效果是：不会移动到有狼的格元。附近有羊时优先去有羊的地方吃羊，同样的格元会优先去邻域羊最多的格元，并使用随机因子模拟不确定性因素。
-  2. 羊的逃跑策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
-    该策略的效果是：只会往没有动物的格元移动。附近有狼时优先往有狼的相反方向逃跑，同样的格元会优先去邻域草最多的格元，并使用随机因子模拟不确定性因素。
+  实现方法：使用权重比较的方法，模拟狼和羊的捕食与逃跑。
+    1. 狼的捕食策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
+    
+      ![math01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image001.png?raw=true)
+      ![math02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image002.png?raw=true)
+      ![math03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image003.png?raw=true)
+      ![math04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image004.png?raw=true)
+      ![math05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image005.png?raw=true)
 
-    *使用Qt进行可视化。
+      该策略的效果是：不会移动到有狼的格元。附近有羊时优先去有羊的地方吃羊，同样的格元会优先去邻域羊最多的格元，并使用随机因子模拟不确定性因素。
+
+    2. 羊的逃跑策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
+      该策略的效果是：只会往没有动物的格元移动。附近有狼时优先往有狼的相反方向逃跑，同样的格元会优先去邻域草最多的格元，并使用随机因子模拟不确定性因素。
+
+      ![math06](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image006.png?raw=true)
+      ![math07](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image007.png?raw=true)
+      ![math08](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image008.png?raw=true)
+      ![math09](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image009.png?raw=true)
+      ![math10](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image010.png?raw=true)
+
+*使用Qt进行可视化。
 
 ## 三、实验环境
 
@@ -59,12 +72,23 @@
 
 1. 在MacOS终端下有较好的模拟效果，界面简约整洁，基本功能完全实现。
 
+      ![pre01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image011.png?raw=true)
+
+
 2. 在使用Qt可视化后，界面更加美观，同时可以很好地观察狼和羊的行为。提供暂停功能，帮助更好地观察狼和羊。我们可以明显看出狼和羊的数量变化关系，也能看出附加功能（狼的追踪和羊的逃跑）被实现。
 
+      ![pre02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image012.png?raw=true)
+      ![pre03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image013.png?raw=true)
+      ![pre04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image014.png?raw=true)
+
 3. 在MacOS、Windows编译运行结果如下
+
+      ![pre05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image015.png?raw=true)
 
 ## 五、总结
 
 本次实验创建一个简单的二维“捕食者—被捕食者” 仿真，有效地了模拟了草原上狼和羊的捕食关系。此外还通过Qt实现了跨平台的可视化，帮助更好地观察狼和羊的行为。
+
 本次实验也有不足之处，在模拟过程中会出现狼把羊逼迫到边界导致大量羊在边界堆积，没有或只有少部分羊在中间逃离狼的捕抓。可能会出现边界上的羊被狼吃光，而中间没有羊或狼还没来得及返回捕抓就饿死的情况，最终会出现狼灭绝的情况。
+
 这是因为模拟环境是一个封闭的区域，相当于在农场进行本次实验，而要模拟草原的话可以设置无边界的情况，在边界可以往另一个边界移动，这样显示的区域实际上模拟了无穷个相似的局部草块，相当于在一个无穷大的区域内进行实验，生态系统更加平衡。
