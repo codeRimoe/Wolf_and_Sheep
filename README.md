@@ -31,24 +31,22 @@
   2. 狼会往羊多的方向移动。
 
   实现方法：使用权重比较的方法，模拟狼和羊的捕食与逃跑。
-    1. 狼的捕食策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
-    
+    1. 狼的捕食策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。该策略的效果是：不会移动到有狼的格元。附近有羊时优先去有羊的地方吃羊，同样的格元会优先去邻域羊最多的格元，并使用随机因子模拟不确定性因素。
       * ![math01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image001.png?raw=true)
       * ![math02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image002.png?raw=true)
       * ![math03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image003.png?raw=true)
       * ![math04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image004.png?raw=true)
       * ![math05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image005.png?raw=true)
 
-      该策略的效果是：不会移动到有狼的格元。附近有羊时优先去有羊的地方吃羊，同样的格元会优先去邻域羊最多的格元，并使用随机因子模拟不确定性因素。
 
-    2. 羊的逃跑策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
-      该策略的效果是：只会往没有动物的格元移动。附近有狼时优先往有狼的相反方向逃跑，同样的格元会优先去邻域草最多的格元，并使用随机因子模拟不确定性因素。
 
-      ![math06](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image006.png?raw=true)
-      ![math07](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image007.png?raw=true)
-      ![math08](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image008.png?raw=true)
-      ![math09](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image009.png?raw=true)
-      ![math10](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image010.png?raw=true)
+    2. 羊的逃跑策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。该策略的效果是：只会往没有动物的格元移动。附近有狼时优先往有狼的相反方向逃跑，同样的格元会优先去邻域草最多的格元，并使用随机因子模拟不确定性因素。
+
+      * ![math06](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image006.png?raw=true)
+      * ![math07](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image007.png?raw=true)
+      * ![math08](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image008.png?raw=true)
+      * ![math09](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image009.png?raw=true)
+      * ![math10](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image010.png?raw=true)
 
 *使用Qt进行可视化。
 
