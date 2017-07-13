@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/jpg">
+        <file>resource/sheep.jpg</file>
+        <file>resource/wolf.jpg</file>
+        <file>favicon.ico</file>
+        <file>resource/green.png</file>
+        <file>resource/green2.png</file>
+        <file>resource/green3.png</file>
+        <file>resource/green4.png</file>
+    </qresource>
+</RCC>
