@@ -33,11 +33,11 @@
   实现方法：使用权重比较的方法，模拟狼和羊的捕食与逃跑。
     1. 狼的捕食策略模拟：查找周边领域，对邻近八个格元进行权重计算，选取权重最大的方向移动。
     
-      ![math01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image001.png?raw=true)
-      ![math02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image002.png?raw=true)
-      ![math03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image003.png?raw=true)
-      ![math04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image004.png?raw=true)
-      ![math05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image005.png?raw=true)
+      * ![math01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image001.png?raw=true)
+      * ![math02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image002.png?raw=true)
+      * ![math03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image003.png?raw=true)
+      * ![math04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image004.png?raw=true)
+      * ![math05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image005.png?raw=true)
 
       该策略的效果是：不会移动到有狼的格元。附近有羊时优先去有羊的地方吃羊，同样的格元会优先去邻域羊最多的格元，并使用随机因子模拟不确定性因素。
 
@@ -72,18 +72,20 @@
 
 1. 在MacOS终端下有较好的模拟效果，界面简约整洁，基本功能完全实现。
 
-      ![pre01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image011.png?raw=true)
+      ![pre01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image012.png?raw=true)
+      ![pre01](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image014.png?raw=true)
 
 
 2. 在使用Qt可视化后，界面更加美观，同时可以很好地观察狼和羊的行为。提供暂停功能，帮助更好地观察狼和羊。我们可以明显看出狼和羊的数量变化关系，也能看出附加功能（狼的追踪和羊的逃跑）被实现。
 
-      ![pre02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image012.png?raw=true)
-      ![pre03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image013.png?raw=true)
-      ![pre04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image014.png?raw=true)
+      ![pre02](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image015.png?raw=true)
+      ![pre03](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image016.png?raw=true)
+      ![pre04](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image018.png?raw=true)
 
 3. 在MacOS、Windows编译运行结果如下
 
-      ![pre05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image015.png?raw=true)
+      ![pre05](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image019.png?raw=true)
+      ![pre06](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/pic/image020.png?raw=true)
 
 ## 五、总结
 
