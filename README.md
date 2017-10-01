@@ -3,6 +3,32 @@
 > This is a Cpp homework, visualized by QT. It is an analogue simulation of the actions of wolf and sheep.
 > more detail please refer to:[狼和羊捕食2D仿真实验报告.pdf](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/%E7%8B%BC%E5%92%8C%E7%BE%8A%E6%8D%95%E9%A3%9F2D%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf)
 
+---
+
+# License
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   Copyright 2017 Yue H.W. Luo, yue.rimoe@gmail.com .
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+---
+
 # 狼和羊捕食2D仿真实验报告
 
 ## 一、实验要求
