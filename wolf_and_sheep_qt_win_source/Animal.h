@@ -1,7 +1,12 @@
 //
 //  Animal.h
 //  wolf_and_sheep
-//
+
+//  Author: Yue H.W. Luo 
+//  Mail: yue.rimoe@gmail.com 
+//  License : http://www.apache.org/licenses/LICENSE-2.0 
+//  More detial: http://blog.rimoe.ml/2017/06/09/post01/ 
+
 //  this header define a class animal
 //  which is the base class of wolf and sheep.
 //

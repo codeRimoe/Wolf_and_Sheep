@@ -1,7 +1,12 @@
 //
 //  Grid.h
 //  wolf_and_sheep
-//
+
+//  Author: Yue H.W. Luo 
+//  Mail: yue.rimoe@gmail.com 
+//  License : http://www.apache.org/licenses/LICENSE-2.0 
+//  More detial: http://blog.rimoe.ml/2017/06/09/post01/ 
+
 //  Created by _nEgATron on 17/06/05.
 //  Copyright © 2017年 _nEgATron. All rights reserved.
 //

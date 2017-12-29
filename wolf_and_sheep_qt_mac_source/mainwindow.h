@@ -1,3 +1,8 @@
+//  Author: Yue H.W. Luo 
+//  Mail: yue.rimoe@gmail.com 
+//  License : http://www.apache.org/licenses/LICENSE-2.0 
+//  More detial: http://blog.rimoe.ml/2017/06/09/post01/ 
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 

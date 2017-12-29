@@ -1,7 +1,12 @@
 //
 //  Ground.h
 //  wolf_and_sheep
-//
+
+//  Author: Yue H.W. Luo 
+//  Mail: yue.rimoe@gmail.com 
+//  License : http://www.apache.org/licenses/LICENSE-2.0 
+//  More detial: http://blog.rimoe.ml/2017/06/09/post01/ 
+
 //  Ground is a units of Grids,
 //  it record the animal memory-location on this unit, and the number of grass in the unit
 //
