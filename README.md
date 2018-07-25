@@ -4,7 +4,7 @@
 
 > more detail please refer to:[狼和羊捕食2D仿真实验报告.pdf](https://github.com/codeRimoe/Wolf_and_Sheep/blob/master/%E7%8B%BC%E5%92%8C%E7%BE%8A%E6%8D%95%E9%A3%9F2D%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf)
 
-> or get infomation about this project from my blog:[大概是最弱鸡的2D仿真 - 写作业中学到的可视化](http://blog.rimoe.ml/2017/07/27/post01/)
+> or get infomation about this project from my blog:[大概是最弱鸡的2D仿真 - 写作业中学到的可视化](http://blog.rimoe.xyz/2017/07/27/post01/)
 
 ---
 
